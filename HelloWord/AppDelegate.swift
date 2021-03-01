@@ -11,14 +11,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Inicialización de procesos antes de que cargue la primera vista
+        
+        //Sincronizacion de servidores
+        //Sincronizacion de Imgenes remotas
+        //Sincronizacion de Productos como Firebase remoteConfig
+        //Cualquier otro tipo de configuracion requerida para el funcionamiento correcta de la aplicacion
+        
         return true
     }
 
     // MARK: UISceneSession Lifecycle
-
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
